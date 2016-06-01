@@ -1,0 +1,411 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Waves</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../modernPhysics/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+  </head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="../../index.html">P7Gyms</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Math <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../math/math.html">Math</a></li>
+            <li><a href="../music/music.html">Music</a></li>
+            <li><a href="../video/Video.html">Video</a></li>
+          </ul>
+        </li>
+        <li><a href="../mechanics/mechanics.html">Mechanics</a></li>
+        <li><a href="../energy/energy.html">Energy</a></li>
+        <li><a href="waves.html">Waves</a></li>
+        <li><a href="../electricity/electricity.html">Electricity</a></li>
+        <li><a href="../modernPhysics/modernPhysics.html">Modern Physics</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../resources/resources.html"> <span class="glyphicon glyphicon-tree-conifer"></span></a></li>      </ul>
+    </div>
+  </div>
+</nav>
+
+<br/>
+<br/>
+<br/>
+
+<div class="container">
+  <h2 class="text-center">Waves</h2>
+  <h3>
+    One exciting thing from waves is the musical instruments:
+  </h3>
+  <img class="img-responsive" src="images/instrument.jpeg" alt="guitar">
+
+</div>
+
+
+<br/>
+<br/>
+<br/>
+
+<div class="container">
+  <h3>Quantities in Waves</h3>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Symbol</th>
+        <th>Unit</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>speed of light in a vacuum</td>
+        <td>c</td>
+        <td>m/s, meters per second</td>
+        <td>scalar</td>
+      </tr>
+      <tr>
+        <td>Frequency</td>
+        <td>f</td>
+        <td>Hz, hertz</td>
+        <td>scalar</td>
+      </tr>
+      <tr>
+        <td>absolute index of refraction</td>
+        <td>n</td>
+        <td>No Unit</td>
+        <td>scalar</td>
+      </tr>
+      <tr>
+        <td>Period</td>
+        <td>T</td>
+        <td>s, seconds</td>
+        <td>scalar</td>
+      </tr>
+      <tr>
+        <td>velocity or speed</td>
+        <td>v</td>
+        <td>m/s</td>
+        <td>scalar</td>
+      </tr>
+      <tr>
+        <td>Wavelength</td>
+        <td>&#955;</td>
+        <td>m, meters</td>
+        <td>scalar</td>
+      </tr>
+
+      <tr>
+        <td>Angle measured from the Normal Line</td>
+        <td>&#952;</td>
+        <td>&#176;</td>
+        <td>scalar</td>
+      </tr>      
+      <tr>
+        <td>Angle of Incidence</td>
+        <td>&#952;<sub>i</sub> = &#952;<sub>1</sub> </td>
+        <td>&#176;</td>
+        <td>scalar</td>
+      </tr>
+      <tr>
+        <td>Angle of Refraction</td>
+        <td>&#952;<sub>2</sub> </td>
+        <td>&#176; </td>
+        <td>scalar</td>
+      </tr>
+      <tr>
+        <td>index of refraction of the first substance</td>
+        <td>n<sub>1</sub></td>
+        <td>No Unit here.</td>
+        <td>scalar</td>
+      </tr>
+      <tr>
+        <td>index of refraction of the second substance</td>
+        <td>n<sub>2</sub></td>
+        <td>No Unit here.</td>
+        <td>scalar</td>
+      </tr>
+      <tr>
+        <td>Wavelength 1</td>
+        <td>&#955;<sub>1</sub></td>
+        <td>m, meters</td>
+        <td>scalar</td>
+      </tr>
+      <tr>
+        <td>Wavelength 2</td>
+        <td>&#955;<sub>2</sub></td>
+        <td>m, meters</td>
+        <td>scalar</td>
+      </tr>
+           
+    </tbody>
+  </table>
+</div>
+
+
+<div class="container">
+  <h3>Key Things to Know in Waves</h3>
+  <p>
+    <ul>
+      <li>Sound waves are longitudinal and mechanical.</li>
+      <li>Light wave are transverse and electromagnetic.</li>
+      <li>Transverse wave particles vibrate side to side perpendicular to the wave direction.</li>
+      <li>Longitudinal wave particles vibrate back and forth parallel to the wave direction.</li>
+      <li>Light can be polarized, but longitudinal waves like sound wave cannot be polarized</li>
+      <li>The amplitude of a sound wave determines its energy.</li>
+      <li>The frequency of an electromagnetic wave determines its energy.</li>
+      <li>Refraction is the bending of a wave as the wave enters a different medium (substance).</li>
+      <li>Diffraction is the spreading of a wave as the wave passes through an opening.</li>
+      <li>As a wave travels from one substance into another substance, the wave's frequency remains the same.</li>
+      <li>All electromagetic waves travel at the speed of light c in vacuum. c = 3 &#215; 10<sup>8</sup> m/s</li>
+      <li>Doppler Effect refers to an observer perceiving an observed frequency that is different from the asctual frequency of the wave.
+      When a wave source approaches an observer, the observer perceives a higher frequency than the ferquency of the wave.
+      when a wave source recedes (moving away) from an observer, the observer perceives a lower frequency than the ferquency of the wave.
+      </li>
+      <li>All angles are measured from the normal.</li>
+      <li>Two points on a wave are in phase if they are separated by 360&#176; or integer multiple of 360&#176;.</li>
+      <li>Two points on a wave are 180&#176;. out of phase if they are separated by 180&#176; or 180&#176; + 360&#176; n, where n = integer.</li>
+    </ul>
+  
+  </p>
+</div>
+
+<div class="container">
+  <div class="jumbotron">
+    <h3>Key Words in Modern Physics</h3>
+    <p><strong>antinode, fequency, amplitude, period, wavelength, pitch, loudness,
+               wavelength, standing wave, resonance, natural frequency</strong></p>
+    
+  </div>
+  <p>
+    <ul>
+      <li><b>Fequency</b>: the number of waves passing by a point per second.</li>
+      <li><b>Wavelength</b>: the length of a wave.</li>
+      <li><b>Period</b>: the time for one complete vibration to happen</li>
+      <li><b>Amplitude</b>: the height of a wave.</li>
+      <li><b>Node</b>: a stationary point on a standing wave.</li>
+      <li><b>Antinode</b>: a most displaced point on a standing wave.</li>
+    </ul>
+  
+  </p>
+</div>
+
+<div class="container">
+  <div class="well"><h3>Formula in Waves</h3>
+  <ul>
+    <li>v = f &#955; </li>
+    <li>T = <math> <mrow>  <mfrac>   <mi>1</mi>   <mi>f</mi>  </mfrac> </mrow></math></li>
+    <li>n = <math> <mrow>  <mfrac>   <mi>c</mi>   <mi>v</mi>  </mfrac> </mrow></math></li>
+    <li>The other equations are on p. 5 of Physics Reference Table</li>
+  </ul>
+  </div>
+</div>
+
+<hr/>
+
+
+<div class="container">
+  <h2>Example 1</h2>
+    <div class="well">
+  <p>
+  a) Which characteristic of a light wave must remain the same
+as the light wave passes from glass into air?<br />
+(1) amplitude (3) period<br />
+(2) frequency (4) wavelength<br/>
+<br/>
+
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#answer1a">Answer</button>
+  <div id="answer1a" class="collapse">
+    Frequency of a wave remains the same as the wave travels from one substance into another substance.
+  </div>
+<br />
+<br />  
+
+b) Which characteristic of a light wave must increase
+as the light wave passes from glass into air?<br />
+(1) amplitude (3) period<br />
+(2) frequency (4) wavelength<br/>
+<br/>
+
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#answer1b">Answer</button>
+  <div id="answer1b" class="collapse">
+    Glass has a higher index of refraction n. Air has a lowest index of refraction. This can be seen from p.2
+    of the physics reference table. v = <math> <mrow>  <mfrac>   <mi>c</mi>   <mi>n</mi>  </mfrac> </mrow></math>.
+    Since air has a smaller n, therefore the speed of light in air v<sub>air</sub> is greater than v<sub>glass</sub>.
+    The speed must be greater for light in air. Since v = f &#955;, and f remains the same as the light enters into air
+    from glass, the wavelength &#955; of the light wave must be greater in air. 
+  </div>
+<br/>
+
+
+  </p>
+
+    </div>
+
+</div>
+
+<hr/>
+
+<div class="container">
+  <h2>Example 2</h2>
+  <div class="well">
+   A duck floating on a lake oscillates up and down 5.0 times during a 10.-second interval as a
+       periodic wave passes by. What is the frequency of the duck’s oscillations?
+<br/>
+<br/>
+
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#answer2">Answer</button>
+  <div id="answer2" class="collapse">
+    Frequency of a wave = # of waves per second. = (# of waves) &#247; (time) = 5 waves &#247; 10 s = 0.5 Hz; <br/>
+    A wave = an oscillation up and down.
+  </div>    
+
+  </div>
+</div>
+
+<hr/>
+
+
+<div class="container">
+  <h2>Example 3</h2>
+  <div class="well">
+    The amplitude of a sound wave is most closely related to the sound’s <br/>
+(1) speed (3) loudness<br/>
+(2) wavelength (4) pitch<br/>
+
+<br/>
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#answer3">Answer</button>
+  <div id="answer3" class="collapse">
+      Loudness is our preception of a sound wave's amplitude.
+  </div>    
+<br/>
+
+
+
+  </div>
+</div>
+
+<hr/>
+
+
+<div class="container">
+  <h2>Example 4</h2>
+  <div class="well">
+Wind blowing across suspended power lines may cause the power lines to vibrate at their natural
+frequency. This often produces audible sound waves. This phenomenon, often called an
+Aeolian harp, is an example of<br/>
+(1) diffraction (3) refraction<br/>
+(2) the Doppler effect (4) resonance<br/>
+<br/>
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#answer4">Answer</button>
+  <div id="answer4" class="collapse">
+    An object in resonance vibrates at its natural frequency.
+    <br/>
+  </div>    
+
+  </div>
+</div>
+
+<hr/>
+
+
+
+<div class="container">
+  <h2>Exercises</h2>
+  <div class="well">
+
+1. As a longitudinal wave moves through a medium,
+the particles of the medium<br/>
+(1) vibrate parallel to the direction of the wave’s
+propagation<br/>
+(2) vibrate perpendicular to the direction of the
+wave’s propagation<br/>
+(3) are transferred in the direction of the wave’s
+motion, only<br/>
+(4) are stationary<br/>
+<br/>
+
+2. Compared to the wavelength of red light,<br/>
+    the wavelength of yellow light is<br/>
+    1) shorter<br/>
+    2) longer<br/>
+    3) the same<br/>
+<br/>
+
+3.  A gamma ray and a microwave traveling in a vacuum have the same <br/>
+(1) frequency (3) speed<br/>
+(2) period (4) wavelength<br/>
+<br/>
+
+4. A student produces a wave in a long spring by vibrating its end. As the frequency of the vibration
+is doubled, the wavelength in the spring is <br/>
+(1) quartered (3) unchanged <br />
+(2) halved (4) doubled <br/>
+<br/>
+
+5. Which two points on the wave shown in the
+diagram below are in phase with each other?<br/>
+               <img class="img-responsive" src="images/qe5.png" alt="Exercise 5 picture">
+<br/>
+(1) A and B (3) B and C<br/>
+(2) A and E (4) B and D<br/>
+
+<br/>
+
+6. A student listens to music from a speaker in an
+adjoining room, as represented in the diagram
+below.<br/>
+
+               <img class="img-responsive" src="images/qe6.png" alt="Exercise 6 picture">
+<br/>
+She notices that she does not have to be directly
+in front of the doorway to hear the music. This
+spreading of sound waves beyond the doorway is
+an example of<br/>
+(1) the Doppler effect (3) refraction<br/>
+(2) resonance (4) diffraction<br/>
+<br/>
+
+7. The horn of a moving vehicle produces a sound of constant frequency. Two stationary observers, A and C,
+and the vehicle’s driver, B, positioned as represented in the diagram below, hear the sound of the horn.<br/>
+
+               <img class="img-responsive" src="images/qe7.png" alt="Exercise 7 picture">
+<br/>
+
+Compared to the frequency of the sound of the horn heard by driver B, the frequency heard by observer A is<br/>
+(1) lower and the frequency heard by observer C is lower<br/>
+(2) lower and the frequency heard by observer C is higher<br/>
+(3) higher and the frequency heard by observer C is lower<br/>
+(4) higher and the frequency heard by observer C is higher<br/>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
