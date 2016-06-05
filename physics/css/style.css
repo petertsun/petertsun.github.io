@@ -3,3 +3,18 @@
     color: #ffffff;
 }
 
+ul.large{
+		font-size:1.2em;
+}
+
+table.large{
+	font-size: 1.1em;
+}
+
+p.large{
+	font-size:1.7em;
+}
+
+ul.large1{
+		font-size:1.7em;
+}
