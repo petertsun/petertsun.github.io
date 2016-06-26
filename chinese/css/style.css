@@ -1,0 +1,36 @@
+﻿.bg-1 {
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+
+ul.large{
+		font-size:1.2em;
+}
+
+table.large{
+	font-size: 1.8em;
+}
+
+p.large{
+	font-size:1.7em;
+}
+
+a.large{
+	font-size:1.7em;
+}
+
+h1.titleBlue{
+	color:#0000FF;
+}
+
+h3.attentionRed{
+    color:#ee0000;
+}
+
+ul.large1{
+		font-size:1.7em;
+}
+
+button.bgColor{
+	background-color:#9AFFAE;
+}
