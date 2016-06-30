@@ -38,7 +38,7 @@
         <span class="icon-bar"></span>                        
       </button>
           <form class="navbar-form navbar-right" method="get" action="http://www.google.com/search">
-            <input type="text"    name="q" size="21" maxlength="255" value="translate " />
+            <input type="text" name="q" size="21" maxlength="255" value="translate " />
             <button type="submit" class="btn btn-default btn-xs"> <span class="glyphicon glyphicon-search"></span></button>
           </form>
     </div>
@@ -50,7 +50,16 @@
         <li class="active"><a href="resultants.html">Resultants 成語</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="resources.html"> <span class="glyphicon glyphicon-tree-conifer"></span> Resources 資源</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Translate
+           <span class="caret"></span></a>
+           <ul class="dropdown-menu">
+             <li><a href="http://translate.google.com">GoogleTranslate</a></li>
+             <li><a href="http://www.bing.com/translator">Bing Translator</a></li>
+             <li><a href="http://cn.linguee.com">Linguee</a></li>
+             <li><a href="resources.html"> <span class="glyphicon glyphicon-tree-conifer"></span> Resources 資源</a></li>
+           </ul>
+        </li>
       </ul>
     </div>
   </div>
