@@ -10,9 +10,12 @@
   <link rel="stylesheet" type="text/css" href="../css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
 
 
-  
   </head>
 
 <body>
@@ -23,7 +26,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="../../index.html">P7Gyms</a>
     </div>
@@ -61,7 +64,7 @@
     One exciting thing from mechanics is the drifting of a bicycle on a slippery or surface with loose sediments.
   </p>
   <img class="img-responsive" src="images/bicycleDrifting.jpg" alt="bicycle drifting"><br/>
-  
+
 
 </div><div class="container">
   <h3>Quantities in Mechanics</h3>
@@ -171,7 +174,7 @@
         <td>m, meters</td>
         <td>scalar</td>
       </tr>
-           
+
     </tbody>
   </table>
 </div>
@@ -202,7 +205,7 @@
       <li>Momentum is conserved in all collision systems.</li>
     </ul>
 
-  
+
   </p>
 </div>
 
@@ -213,7 +216,7 @@
     <h3>Key Words in Mechanics</h3>
     <p><strong>acceleration, position, displacement, distance, normal force,
        inertia, momentum </strong></p>
-    
+
   </div>
   <p>
     <ul class="large">
@@ -225,22 +228,22 @@
       <li><b>inertia</b>: the mass. Mass is a measure of an object's resistance to change in motion.</li>
       <li><b>Momentum</b>: the product of the mass of an object and its velocity.</li>
     </ul>
-  
+
   </p>
 </div>
 
 <div class="container">
   <div class="well"><h3>Formula in Mechanics</h3>
   <ul class="large">
-    <li><span style="text-decoration: overline">v</span> = <math> <mrow>  <mfrac>   <mi>d</mi>   <mi>t</mi>  </mfrac> </mrow></math></li>
-    <li><span style="text-decoration: overline">a</span> = <math> <mrow>  <mfrac>   <mi>&#916;v</mi>   <mi>t</mi>  </mfrac> </mrow></math></li>
+    <li><span style="text-decoration: overline">v</span> = \( \frac{d}{t} \) </li>
+    <li><span style="text-decoration: overline">a</span> = \( \frac{&#916;v}{t} \)</li>
     <li>v<sub>f</sub> = v<sub>i</sub> + a t</li>
-    <li>d = v<sub>i</sub> t + <math> <mrow>  <mfrac>   <mi>1</mi>   <mi>2</mi>  </mfrac> </mrow></math> a t<sup>2</sup> </li>
+    <li>d = v<sub>i</sub> t + \( \frac{1}{2} a t<sup>2</sup> </li>
     <li>v<sub>f</sub><sup>2</sup> = v<sub>i</sub><sup>2</sup> + 2ad</li>
     <li>F<sub>net</sub> = m a</li>
     <li>F<sub>f</sub> = &#956; F<sub>N</sub> </li>
-    <li>F<sub>g</sub> = <math> <mrow> <mfrac> <mi>Gm<sub>1</sub>m<sub>2</sub></mi> <mi>r<sup>2</sup></mi> </mfrac> </mrow></math></li>
-    <li>g = <math><mrow><mfrac><mi>F<sub>g</sub></mi> <mi>m</mi></mfrac></mrow></math> or F<sub>g</sub> = mg</li>
+    <li>F<sub>g</sub> = \( \frac{Gm<sub>1</sub>m<sub>2}{r<sup>2</sup>}</li>
+    <li>g = \( \frac{F<sub>g</sub>}{m} or F<sub>g</sub> = mg</li>
     <li>p = m v</li>
     <li>p<sub>before</sub> = p<sub>after</sub> <br/>
         m<sub>1</sub>v<sub>1i</sub> + m<sub>2</sub>v<sub>2i</sub> = m<sub>1</sub>v<sub>1f</sub> + m<sub>2</sub>v<sub>2f</sub></li>
@@ -248,8 +251,8 @@
     <li>F<sub>net</sub>t = &#916;p</li>
     <li>F<sub>s</sub> = k x</li>
     <li>F<sub>c</sub> = m a<sub>c</sub></li>
-    <li>a<sub>c</sub> = <math><mrow> <mfrac><mi>v<sup>2</sup></mi> <mi>r</mi></mfrac> </mrow></math></li>
-    <li>P = <math> <mrow>  <mfrac>   <mi>W</mi>   <mi>t</mi>  </mfrac> </mrow></math></li>
+    <li>a<sub>c</sub> = \( \frac{v<sup>2</sup>}{r}</li>
+    <li>P = \( \frac{W}{t}</li>
 
   </ul>
   </div>
@@ -273,7 +276,7 @@ total distance traveled by the car in this
 <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#answer1a">Answer</button>
   <div id="answer1a" class="collapse">
 List the information: v<sub>i</sub> = 15 m/s; v<sub>f</sub> = 21 m/s; t = 12 s; d = ?<br/>
-Write out the equation: d = v<sub>i</sub> t + <math><mrow> <mfrac><mi>1</mi> <mi>2</mi></mfrac> </mrow></math> a t<sup>2</sup> 
+Write out the equation: d = v<sub>i</sub> t + <math><mrow> <mfrac><mi>1</mi> <mi>2</mi></mfrac> </mrow></math> a t<sup>2</sup>
 Substitute numbers with unit: d = 15 m/s &#215; 12 s + 0.5 a (12 s)<sup>2</sup><br/>
 But wait! what is a? Find a: a = <math><mrow> <mfrac><mi>v<sub>f</sub> - v<sub>i</sub></mi><mi>t</mi></mfrac> </mrow></math>
  = <math><mrow> <mfrac><mi>21 m/s - 15 m/s</mi><mi>12 s</mi></mfrac> </mrow></math> = 6 m/s &#247; 12 s = 0.5 m/s<sup>2</sup><br/>
@@ -281,7 +284,7 @@ But wait! what is a? Find a: a = <math><mrow> <mfrac><mi>v<sub>f</sub> - v<sub>i
 
 
   </div>
-  
+
 
 
   </p>
@@ -334,7 +337,7 @@ student?<br/>
   <div id="answer3" class="collapse">
      A student pulls on a sled with a force of 20 N forward. By Newton's third law, the sled pulls back on the
      student with a force of 20 N.
-  </div>    
+  </div>
 
 
 
@@ -364,7 +367,7 @@ go-cart can travel without sliding off the track?<br/>
     r = 25 m; m = 200 kg; F<sub>c</sub> = 1200 N; v = ?<br/>
     F<sub>c</sub> = <math><mrow> <mfrac><mi>mv<sup>2</sup></mi> <mi>r</mi></mfrac> </mrow></math><br/>
     v = &#8730;(F<sub>c</sub> r &#247; m) = &#8730;(1200 N &#215; 25 m &#247; 200 kg) = 150 m/s
-    
+
   </div>
 <br/>
 <br/>
@@ -382,7 +385,7 @@ the go-cart and the track.<br/>
   <div id="answer4b" class="collapse">
     v = &#8730;(F<sub>c</sub> r &#247; m). Choices 2 and 4 decrease v. Choice 1 decreases F<sub>c</sub>, which
     also decreases v. Choice 3 is correct because a larger r inreases v.
-    
+
   </div>
 
 
